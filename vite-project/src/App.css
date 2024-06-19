@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.donut{
+  width: 550px;
+  height: 550px;
+  background-color: #984200;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glaseado-donut{
+  width: 500px;
+  height: 500px;
+  background-color: #3e1d04;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.donut-list{
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 30px;
+}
+
+.glaseado-donut button{
+  position: absolute;
+  top: 85%;
+}
+
+.borde-dentro-donut{
+  width: 200px;
+  height: 200px;
+  background-color: #984200;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoyo-donut{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+
