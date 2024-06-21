@@ -60,6 +60,7 @@ const UserComponents = () => {
           <button onClick={() => updateUserHandler(user._id)}>actualizar</button>
           <div className='donut'>
         <div className='glaseado-donut'>
+          <div className='sprinkles'></div>
           <div className='borde-dentro-donut'>
           <div className='hoyo-donut'>
             <h2>{user.nombre} {user.apellido}</h2>
